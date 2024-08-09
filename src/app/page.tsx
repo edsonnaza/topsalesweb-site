@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TopSalesWeb for Startup and SaaS",
+  title: "TopSalesWeb",
   description: "This is the TopSalesWeb - Sales like a pro!",
   // other metadata
 };
