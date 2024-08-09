@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+              TopSalesWeb a powerful symbol 
+                that connects your business with success and growth.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -231,7 +231,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                TopSalesWeb CRM 
               </a>
             </p>
           </div>

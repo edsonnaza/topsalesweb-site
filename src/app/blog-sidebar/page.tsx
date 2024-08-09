@@ -454,7 +454,7 @@ const BlogSidebarPage = () => {
                   <TagButton text="Themes" />
                   <TagButton text="UI Kit" />
                   <TagButton text="Tailwind" />
-                  <TagButton text="Startup" />
+                  <TagButton text="TopSalesWeb" />
                   <TagButton text="Business" />
                 </div>
               </div>

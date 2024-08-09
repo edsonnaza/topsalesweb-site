@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Get the powerful features of Top Sales Web at a price that fits your budget, with transparent and straightforward pricing options designed for businesses of all sizes."
           center
           width="665px"
         />
@@ -62,9 +62,9 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Perfect for small businesses, offering essential CRM features to help you manage and grow your sales efficiently."
           >
-            <OfferList text="All UI Components" status="active" />
+          
             <OfferList text="Use with Unlimited Projects" status="active" />
             <OfferList text="Commercial Use" status="active" />
             <OfferList text="Email Support" status="active" />
@@ -75,9 +75,9 @@ const Pricing = () => {
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Ideal for growing businesses, providing a comprehensive set of CRM tools to boost your sales and enhance customer relationships."
           >
-            <OfferList text="All UI Components" status="active" />
+           
             <OfferList text="Use with Unlimited Projects" status="active" />
             <OfferList text="Commercial Use" status="active" />
             <OfferList text="Email Support" status="active" />
@@ -88,9 +88,9 @@ const Pricing = () => {
             packageName="Plus"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Designed for larger teams, offering advanced CRM features and integrations to optimize your sales strategies and scale your business operations."
           >
-            <OfferList text="All UI Components" status="active" />
+          
             <OfferList text="Use with Unlimited Projects" status="active" />
             <OfferList text="Commercial Use" status="active" />
             <OfferList text="Email Support" status="active" />

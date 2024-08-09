@@ -14,7 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Top Sales Web is designed to streamline your business operations and drive growth. Whether you're managing sales, tracking targets, optimizing profits, or handling customer relationships, our CRM is here to support your success. Let us help you elevate your business to the next level with powerful tools and intuitive features."
           center
           mb="80px"
         />
