@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Video from "../Video/landingVideo";
+import HomeSectionTwo from "@/components/Home/HomeSectionTwo";
 
 const Hero = () => {
   return (
@@ -278,6 +279,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
+      
       </section>
     </>
   );
