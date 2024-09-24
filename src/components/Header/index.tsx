@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/TopSalesWeb.svg"
                   alt="logo"
                   width={140}
                   height={30}
@@ -159,7 +159,12 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                
+                 
+              <button className="flex w-full items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                Start with free demo
+              </button>
+
+
                 <div>
                   <ThemeToggler />
                 </div>
