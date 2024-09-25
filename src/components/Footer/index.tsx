@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-              TopSalesWeb a powerful symbol 
+                TopSalesWeb a powerful symbol 
                 that connects your business with success and growth.
                 </p>
                 <div className="flex items-center">
