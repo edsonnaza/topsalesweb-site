@@ -158,10 +158,19 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
+              <div className="flex flex-col">
+                <Link
+                href={''}
+                >
+                <p className="text-xs mb-1 text-bg-color-dark underline">Contact Us</p>
+                <p className="text-xs text-body-color">(+084 800 086 8530)</p>
+                </Link>
+              </div>
+
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                 
+              
               <button className="flex w-full items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-               Get free demo
+               Get a free demo
               </button>
 
 
