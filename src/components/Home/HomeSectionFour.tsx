@@ -13,7 +13,7 @@ const HomeSectionFour = () => {
             Transform Your Sales Process Today
             </h1>
             <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-            With TopSalesWeb, you’re not just managing contacts - you’re building relationships that last. Whether you're a small business or a large enterprise, our CRM system scales with your needs, offering the flexibility and power to grow alongside your business.
+            With TopSalesWeb, you’re not just managing contacts - you’re building relationships that last. Whether you&aposre a small business or a large enterprise, our CRM system scales with your needs, offering the flexibility and power to grow alongside your business.
             </p>
 
 
