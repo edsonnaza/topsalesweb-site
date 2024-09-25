@@ -22,18 +22,20 @@ const HomeSectionFour = () => {
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
+            
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/crm/crm1-pie.webp"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none   rounded-full"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/crm/crm1-pie.webp"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none  rounded-full"
               />
             </div>
       
@@ -42,19 +44,11 @@ const HomeSectionFour = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Advanced Analytics:    </h3>
+                Get Started Now    </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Gain valuable insights into your sales pipeline, client behavior, team performance and sales forecasting with our powerfull analytics tools.
-                </p>
+                Start today and dicover how TopSalesWeb can revolutionise the way you manage your client relationships and grow your business.       </p>
               </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Customisation:
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Tailor TopSalesWeb to fit your unique business needs with customisable dashboards, fields, and workflows.
-                </p>
-              </div>
+              
              
             </div>
           </div>
