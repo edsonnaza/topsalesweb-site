@@ -13,6 +13,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import Footer from "@/components/Footer";
+import Footer02 from "@/components/Footer/footer02";
 
  
 
@@ -39,6 +40,7 @@ export default function Home() {
       <Blog />
       <Contact />
       <Footer />  
+      <Footer02 />
    
     </>
   );
