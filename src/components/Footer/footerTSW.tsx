@@ -111,12 +111,12 @@ const FooterTSW = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/" className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                        <Link href="/products" className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
                           Products
                         </Link>
                       </li>
                       <li>
-                        <Link href="/about" className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
+                        <Link href="/services" className="text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary">
                           Services
                         </Link>
                       </li>
@@ -141,7 +141,7 @@ const FooterTSW = () => {
                         </Link>
                       </li>
                     </ul>
-                    <div className="h-px pt-4 w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+                    <div className="h-px pt-5 w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
                     <p className="mb-9 pt-5 pb-1 text-left text-base leading-relaxed text-body-color dark:text-body-color-dark">
                       Registered in England and Wales No. 12345678 <br />
                       Head Office: <br />

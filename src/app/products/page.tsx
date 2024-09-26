@@ -15,9 +15,7 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
   return (
-    <>
-      
-
+    <> 
       <ProductsSectionOne />
       <ProductsSectionTwo />
       <ProductsSectionThree />
