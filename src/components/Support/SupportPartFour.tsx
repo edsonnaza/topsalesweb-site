@@ -1,33 +1,53 @@
-import Link from "next/link";
-import Video from "../Video/landingVideo";
-import HomeSectionTwo from "@/components/Home/HomeSectionTwo";
+ 
+import Image from 'next/image'
+import Link from 'next/link'
 
-const Hero = () => {
+const SupportPartFour = () => {
   return (
     <>
       <section
-        id="home"
+        id="servicepartfive"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
      <div className="container">
-      <div className="-mx-4 flex flex-wrap lg:px-3 lg:pt-4 ">
-        <div className="w-full lg:w-6/12 lg:px-6">
+      <div className="-mx-4 flex flex-wrap  p-6">
+
+       <div className="w-full lg:w-6/12 px-4 pb-6">
+            <div
+              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              data-wow-delay=".15s"
+            
+            >
+              <Image
+                src="/images/crm/support.jpg"
+                alt="about image"
+                fill
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none   rounded-full"
+              />
+              <Image
+                src="/images/crm/support.jpg"
+                alt="about image"
+                fill
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none  rounded-full"
+              />
+            </div>
+      
+       </div>
+
+        <div className="w-full lg:w-6/12 px-7 py-32">
           <div className="mx-auto max-w-[800px] text-center">
             <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-              Welcome to TopSalesWeb: Your Ultimate CRM Solution!
+            Comprehensive Support for Maximizing Your CRM Investment
             </h1>
-            <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-              At TopSalesWeb, we recognise that effective client relationship management is essential for driving your business forward. Our powerful and intuitive CRM tool is designed to help you streamline your sales process, optimise profits, and enhance client interactions. With real-time sales tracking, target achievement, detailed client management, and interactive data visualisation, TopSalesWeb is your strategic partner for business growth, empowering you to set and track targets, manage client relationships effectively, and elevate your business.
+            <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl"> 
+            Our dedicated support team is here to help you every step of the way, ensuring that you get the most out of your CRM investment.
             </p>
-            
+           
           </div>
         </div>
 
-        <div className="w-full lg:w-6/12 px-6">
-          <div className="mx-auto max-w-[800px] text-center">
-            <Video />
-          </div>
-        </div>
+       
       </div>
     </div>
 
@@ -271,18 +291,13 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
+       
         </div>
-        <div className="flex flex-col items-center py-14 justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <Link
-                href="#"
-                className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-              >
-                Start with free demo
-              </Link>
-            </div>
+    
       </section>
     </>
   );
 };
 
-export default Hero;
+export default SupportPartFour;
+
