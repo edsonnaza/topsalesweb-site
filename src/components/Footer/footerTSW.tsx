@@ -7,10 +7,10 @@ const FooterTSW = () => {
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
-              <div className="-mx-4 flex flex-wrap ">
-              <div className="w-full  flex justify-between space-x-5 pt-8 pb-8 px-4 rounded-lg  bg-slate-100">
-              <div className="flex flex-col pl-12">
-                <Link href={''}>
+           <div className="-mx-4 flex flex-wrap ">
+                  <div className="w-full  flex justify-between space-x-5 pt-8 pb-8 px-4 rounded-lg  bg-slate-100">
+                  <div className="flex flex-col pl-12">
+                    <Link href={''}>
                   <div className="flex items-center mb-1">
                     <div className="w-12 h-12 bg-slate-300 rounded-full p-2 flex items-center justify-center mr-3">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -19,7 +19,7 @@ const FooterTSW = () => {
                     </div>
                   </div>
                   </Link>
-            </div>
+                </div>
             <div className="flex flex-col mr-8">
             <p className=" text-body-color mt-1 underline ml-1">Call Us</p>
             <p className="  text-body-color mt-1   ml-1">(123456789)</p>

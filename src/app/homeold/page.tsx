@@ -14,6 +14,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Footer02 from "@/components/Footer/footer02";
+import Footer03 from "@/components/Footer/footer03";
+import Footer04 from "@/components/Footer/footer04";
 
  
 
@@ -41,6 +43,8 @@ export default function Home() {
       <Contact />
       <Footer />  
       <Footer02 />
+      <Footer03 />
+      <Footer04 />
    
     </>
   );

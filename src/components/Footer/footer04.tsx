@@ -7,9 +7,9 @@ const Footer = () => {
     <>
       <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
-            <span>=======Opcion 2============</span>
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <span   >=======Opcion 4============</span>
+          <div className="-mx-4 flex flex-wrap ">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
@@ -20,22 +20,23 @@ const Footer = () => {
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/TopSalesWeb.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base text-pretty leading-relaxed text-body-color dark:text-body-color-dark">
+                <p className=" text-base leading-relaxed text-body-color dark:text-body-color-dark">
                  A powerful system that connects your business with success and growth. <br />
               
                 </p>
-                 
+ 
+      
               </div>
             </div>
         
-          <div className="-mx-4 flex flex-col  px-10   ">
+          <div className="-mx-6 flex flex-col  px-5    ">
                <h2 className="mb-10 text-xl  font-bold text-black dark:text-white">
                   Useful Links
                 </h2>
@@ -86,7 +87,7 @@ const Footer = () => {
            </div>
 
             <div className="w-full px-1 sm:w-1/2 md:w-1/2 lg:-ml-10 lg:pt-7 lg:p-1.5 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+              <div className="mb-12 lg:mb-16 px-3">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                  
                 </h2>
@@ -120,18 +121,18 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
+            <div className="w-full lg:mr-8  md:w-1/2 lg:w-4/12 xl:w-2/12 ">
+              <div className="mb-12 lg:mb-8   ">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                 Find us at
                 </h2>
                 <ul>
                   <li>
                     
-                     <p className="mb-9 text-base text-pretty  leading-relaxed text-body-color dark:text-body-color-dark">
+                     <p className="mb-9 text-small   leading-relaxed text-body-color dark:text-body-color-dark">
                      
                       Head Office:  <br />
-                      2 Oxford Road, Suite 3, Second Floor, London, SW1A 1AA, United Kingdom. <br/>
+                      2 Oxford Road, Suite 3, Second Floor, London, SW1A 1AA, United Kingdom. <br/> <br/>
                       Registered in England and Wales No. 12345678.
                     </p>
                     
@@ -142,64 +143,65 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="-mx-4 flex flex-wrap text-sm  rounded-lg ">
-                  <div className="w-full  flex justify-between space-x-5 pt-8 pb-8 px-4 rounded-lg ">
-                    <div className="flex flex-col pl-12">
-                      <Link href={''}>
-                      <div className="flex items-center mb-1">
-                        <div className="w-12 h-12 bg-slate-300 rounded-full p-2 flex items-center justify-center mr-3">
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
-                          </svg>
+            <div className="w-full px-1 md:w-1/2 lg:w-4/12 xl:w-2/12  ">
+              <div className="mb-12 lg:mb-4  ">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                Keep in touch
+                </h2>
+              
+                <ul>
+                  
+                    <li> 
+                        <div className="w-full  flex   text-left   pb-2 rounded-lg ">
+                              <div className="flex flex-col pl-2 ">
+                                <Link href={''}>
+                                  <div className="flex items-center  mb-1 ">
+                                  <div className="w-8 h-8 bg-slate-300 rounded-full p-2 flex items-center justify-center mr-2">
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                                      </svg>
+                                  </div>
+                                </div>
+                              </Link>
+                            </div>
+
+                              <div className="flex flex-col ml-2 text-base leading-relaxed mb-3 text-body-color dark:text-body-color-dark ">
+                                <p className="text-base mb-1 underline">Call Us:</p> 
+                                <p className="text-base mb-1">  (123456789)</p>  
+                              </div>
+                        </div>
+                    </li>
+                     <li> 
+                          <div className="w-full  flex justify-between text-left  pb-4  rounded-lg ">
+                              <div className="flex flex-col pl-2 ">
+                              <Link href={''}>
+                                <div className="flex items-center  mb-1">
+                                  <div className="w-8 h-8 bg-slate-300 rounded-full p-2 flex items-center justify-center mr-2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                                  </svg>
+                                </div>
+                              </div>
+                              </Link>
+                           </div>
+
+                        <div className="flex flex-col text-base leading-relaxed text-body-color dark:text-body-color-dark ">
+                          <p className=" text-base mb-1 ml-2 underline">Mail Us:</p> 
+                          <p className="text-base mb-1 ml-2  ">  general@topsalesweb.co.uk</p>  
+                          <p className=" text-base mb-1 ml-2 "> sales@topsalesweb.co.uk</p>
+                          <p className="text-base mb-1 ml-2  "> support@topsalesweb.co.uk</p>
                         </div>
                       </div>
-                      </Link>
-                    </div>
-                    <div className="flex flex-col mr-8">
-                      <p className=" text-base mt-1 underline ml-1  text-body-color dark:text-body-color-dark">Call Us</p>
-                      <p className="  text-base  mt-1   ml-1  text-body-color dark:text-body-color-dark">(123456789)</p>
-                    </div>
-                 {/* End Call Us  */}
-              <div className="flex flex-col pl-12">
-                  <Link href={''}>
-                    <div className="flex items-center mb-1">
-                      <div className="w-12 h-12 bg-slate-300 rounded-full p-2 flex items-center justify-center mr-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
-                      </svg>
-
-                      </div>
-                    </div>
-                    </Link>
+                    </li>
+                  
+                  
+                  
+                </ul>
               </div>
-
-              <div className="flex flex-col  ">
-              <p className="text-base mt-1   underline ml-1  text-body-color dark:text-body-color-dark">Mail Us</p>
-              </div>
-                <div className="flex-1 ml-10 mt-1 flex flex-col text-left pl-16">
-                  <Link href={''}>
-                    <p className="text-base mb-1 underline  text-body-color dark:text-body-color-dark">General</p>
-                    <p className="text-base  text-body-color dark:text-body-color-dark">general@topsalesweb.co.uk</p>
-                  </Link>
-                </div>
-                <div className="flex-1 flex mt-1 flex-col text-left">
-                  <Link href={''}>
-                    <p className="text-base mb-1   underline  text-body-color dark:text-body-color-dark">Sales</p>
-                    <p className="text-base   text-body-color dark:text-body-color-dark ">sales@topsalesweb.co.uk</p>
-                  </Link>
-                </div>
-                <div className="flex-1 flex flex-col mt-1 text-left">
-                  <Link href={''}>
-                    <p className="text-base mb-1   underline  text-body-color dark:text-body-color-dark">Support</p>
-                    <p className="text-base  text-body-color dark:text-body-color-dark">support@topsalesweb.co.uk</p>
-                  </Link>
-                </div>
-              </div>
+            </div>
           </div>
-        {/* End contacts */}
-
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
@@ -422,7 +424,7 @@ const Footer = () => {
         </div>
           
       </footer>
-          <span className="text-center  px-44  ">============End Option 2============</span>
+          <span className="text-center  px-44  ">============End Option 4============</span>
     </>
   );
 };
