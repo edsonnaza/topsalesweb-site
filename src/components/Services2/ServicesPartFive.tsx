@@ -1,31 +1,31 @@
  
 import Image from 'next/image'
 
-const ServicesSectionOne = () => {
+const ServicesPartFive = () => {
   return (
     <>
       <section
-        id="home"
+        id="servicepartfive"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
      <div className="container">
-      <div className="-mx-4 flex flex-wrap px-4 ">
+      <div className="-mx-4 flex flex-wrap  p-6">
 
-       <div className="w-full lg:w-6/12 px-5 pb-5 py-8 ">
+       <div className="w-full lg:w-6/12 px-4 pb-6">
             <div
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             
             >
               <Image
-                src="/images/crm/team-discussion.jpg"
+                src="/images/crm/groupofpeople.jpg"
                 alt="about image"
                 fill
                 
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none   rounded-full"
               />
               <Image
-                src="/images/crm/team-discussion.jpg"
+                src="/images/crm/groupofpeople.jpg"
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none  rounded-full"
@@ -34,13 +34,13 @@ const ServicesSectionOne = () => {
       
        </div>
 
-        <div className="w-full lg:w-6/12 px-4 py-24 ">
+        <div className="w-full lg:w-6/12 px-7 py-32">
           <div className="mx-auto max-w-[800px] text-center">
             <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-            Our Services: Maximizing Your Success with TopSalesWeb
+            Partner with TopSalesWeb
             </h1>
             <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl"> 
-            At TopSalesWeb, we go beyond just providing a powerful CRM system. We offer a range of professional services designed to ensure that you get the most out of our platform, tailored to your unique business needs. Our team of experts is here to support you at every stage, from initial setup to ongoing optimization.
+            At TopSalesWeb, we are dedicated to your success. Whether you’re just getting started with CRM or looking to take your client relationship management to the next level, our services are designed to support you every step of the way. Partner with us and unlock the full potential of TopSalesWeb for your business.
             </p>
            
           </div>
@@ -297,5 +297,5 @@ const ServicesSectionOne = () => {
   );
 };
 
-export default ServicesSectionOne;
+export default ServicesPartFive;
 

@@ -1,9 +1,10 @@
  
  
 import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
-import ServicesSectionTwo from "@/components/Services/ServicesSectionTwo";
- 
-
+import ServicesPartTwo from "@/components/Services2/index";
+import ServicesPartThree from "@/components/Services2/ServicePartThree";
+import ServicesPartFour from "@/components/Services2/ServicesPartFour"; 
+import ServicesPartFive from "@/components/Services2/ServicesPartFive";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,7 +17,11 @@ const Services = () => {
   return (
     <> 
       <ServicesSectionOne />
-      <ServicesSectionTwo />
+      <ServicesPartTwo />
+      <ServicesPartThree />
+      <ServicesPartFour />
+      <ServicesPartFive />
+      
        
     </>
   );
