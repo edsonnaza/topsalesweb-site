@@ -18,7 +18,7 @@ const AboutUsPartOne = () => {
             </h1>
             <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl"> 
              Top Sales Web is designed to streamline your business operations and drive growth. 
-             Whether you're managing sales, tracking targets, optimizing profits, or handling customer relationships, our CRM is here to support your success. 
+             Whether you are managing sales, tracking targets, optimizing profits, or handling customer relationships, our CRM is here to support your success. 
              Let us help you elevate your business to the next level with powerful tools and intuitive features.
             </p>
            
